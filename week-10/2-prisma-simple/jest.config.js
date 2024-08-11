@@ -1,4 +1,4 @@
-// jest.config.js
+jest.config.js
 module.exports = {
     preset: 'ts-jest',
     testEnvironment: 'node',
@@ -11,4 +11,3 @@ module.exports = {
     // Module file extensions for importing
     moduleFileExtensions: ['ts', 'js', 'json', 'node'],
   };
-  

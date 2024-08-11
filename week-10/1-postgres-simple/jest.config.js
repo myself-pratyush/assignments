@@ -12,3 +12,28 @@ module.exports = {
     moduleFileExtensions: ['ts', 'js', 'json', 'node'],
   };
   
+// jest.config.js
+// module.exports = {
+//   "jest": {
+//     "testEnvironment": "node",
+//     "verbose": true,
+//     "moduleFileExtensions": [
+//       "js",
+//       "ts",
+//       "tsx",
+//       "json",
+//       "node"
+//     ],
+//     "testPathIgnorePatterns": [
+//       "/node_modules/"
+//     ],
+//     "collectCoverage": true,
+//     "transform": {
+//       "^.+\\.tsx?$": "ts-jest"
+//     },
+//     "setupTestFrameworkScriptFile": "./setupTests.ts",
+//     "testMatch": [
+//         "**/*.test.js"
+//      ]
+//   },
+// }
